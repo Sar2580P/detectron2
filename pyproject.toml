@@ -1,3 +1,14 @@
+[tool.poetry]
+name = "Detectron-2"
+version = "0.1.0"
+description = "implementing various object detection tasks"
+authors = ["SarP2580 <sporwal1818@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
 [build-system]
 requires = ["setuptools", "torch"]
 build-backend = "setuptools.build_meta"
